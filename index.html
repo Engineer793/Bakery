@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modern Bakery</title>
+    <style>
+      h1 {
+        background-color: bisque;
+      }
+    </style>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
@@ -12,25 +18,25 @@
           <img src="https://picsum.photos/200/300" alt="Modern bakery logo" />
         </a>
         <ul>
-          <li><a href="#traditions section">Our traditions</a></li>
-          <li><a href="#chefs setion">Chefs</a></li>
-          <li><a href="#formats section">Formats</a></li>
-          <li><a href="#contacts section">Contacts</a></li>
+          <li><a class="link" href="#" target="_blank">Franchise</a></li>
+          <li><a class="link" href="#">Our Traditions</a></li>
+          <li><a class="link" href="#">Formats</a></li>
+          <li><a class="link" href="#">Contacts</a></li>
         </ul>
       </nav>
-      <button type="button">Order call</button>
+      <button class="button" type="button">Order call</button>
     </header>
     <main>
-      <section>
-        <h1>Modern Bakery</h1>
+      <section class="main-section">
+        <h1 class="hero-title"><span class="accent">Modern</span> Bakery</h1>
       </section>
-      <section id="traditions section">
-        <ul>
+      <section>
+        <ul class="advantages">
           <li>High market demand</li>
           <li>Budget friendly formats</li>
           <li>Experienced management team</li>
         </ul>
-        <h2>New Traditions Format</h2>
+        <h2 class="section-title">New Traditions Format</h2>
         <p>
           <span>Shop bakery</span> is bakery that took all the best and saved
           taste of traditional pastry and naturel ingredients.
@@ -45,8 +51,10 @@
           alt="man baker looking at baguettes with smile"
         />
       </section>
-      <section id="chefs section">
-        <h2>The best chefs</h2>
+      <section>
+        <h2 class="section-title">
+          The best <span class="accent">chefs</span>
+        </h2>
         <ul>
           <li>
             <article>
@@ -72,25 +80,23 @@
           </li>
         </ul>
       </section>
-      <section id="formats section">
-        <h2>Formats</h2>
-        <ul>
-          <li>
-            <article>
-              <h3>Walrus</h3>
-            </article>
-          </li>
-          <li>
-            <article>
-              <h3>Horseshoe</h3>
-            </article>
-          </li>
-          <li>
-            <article>
-              <h3>Handlebar</h3>
-            </article>
-          </li>
-        </ul>
+      <section>
+        <h2 class="section-title">Formats</h2>
+        <li>
+          <article>
+            <h3>Walrus</h3>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3>Horseshoe</h3>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3>Handlebar</h3>
+          </article>
+        </li>
       </section>
       <section id="contacts section">
         <h1>Join Bakeries Network</h1>
