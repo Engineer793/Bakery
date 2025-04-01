@@ -39,6 +39,10 @@
 }
 
 /* Base */
+* {
+  box-sizing: border-box;
+}
+
 body {
  color: var(--color-primary-dark);
 font-family: 'Poppins', sans-serif;
@@ -47,16 +51,29 @@ font-weight: 400;
 line-height: 1.5;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
 address {
   font-style: normal;
 }
 
-a {
+ul {
   list-style-type: none;
 }
 
-ul {
-  list-style-type: none;
+.hidden{
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.section {
+  padding: 48px 0;
 }
 
 /* Button */
@@ -92,12 +109,15 @@ color: var(--color-brand-dark);
 }
 
 /* Hero section */
+.hero-section {
+  padding: 272px 0;
+}
 .hero-title {
+  margin-bottom: 0;
   color: var(--color-primary-light);
   text-align: center;
   font-size: 128px;
   font-weight: 900;
-  font-style: italic;
 }
 
 .hero-title .accent {
