@@ -17,18 +17,21 @@
   <body>
     <header>
       <div class="container">
-        <nav>
+        <div class="header-container">
+          <nav class="header-nav">
         <a href="/">
-          <img src="https://picsum.photos/200/300" alt="Modern bakery logo" />
+          <img src="https://picsum.photos/150/50" alt="Modern bakery logo" />
         </a>
-        <ul>
-          <li><a class="link" href="#" target="_blank">Franchise</a></li>
-          <li><a class="link" href="#">Our Traditions</a></li>
+        <ul class="header-menu">
+          <li><a class="link" href="#" target="_blank">Our traditions</a></li>
+          <li><a class="link" href="#">Chefs</a></li>
           <li><a class="link" href="#">Formats</a></li>
           <li><a class="link" href="#">Contacts</a></li>
         </ul>
-      </nav>
-      <button class="button" type="button">Order call</button></div>
+          </nav>
+      <button class="button" type="button">Order call</button>
+        </div>
+    </div>
     </header>
     <main>
       <section class="hero-section">
@@ -36,7 +39,7 @@
           <h1 class="hero-title"><span class="accent">Modern</span> Bakery</h1>
         </div>
       </section>
-      <section>
+      <section class="advantages-section">
         <div class="container">
           <h2 class="visually-hidden">Our advantages</h2>
       <ul class="advantages-list">
@@ -48,22 +51,26 @@
         </section>
       <section class="traditions-section section" id="traditions section">
         <div class="container">
-        <h2 class="traditions title section-title">New Traditions Format</h2>
+          <div class="traditions-container">
+            <div class="traditions-content">
+             <h2 class="traditions-title section-title">New Traditions Format
+             </h2>
         <p class="traditions-text">
           <span class="brand uppercase">Shop bakery</span>
           is bakery that took all the best and saved taste of traditional pastry
           and naturel ingredients.
         </p>
-        <p class="traditions-text">
+        <p class="traditions-text limited">
           We work like the most famous networks -
-          <span class="brand">all orders are ready in 5 minutes.</span>
+          <span class="brand">all orders are ready in 5 minutes</span>.
           And even more - our bakeries have stylish design and high service
           quality.
         </p>
+            </div>        
         <img
           src="https://picsum.photos/200/300"
-          alt="man baker looking at baguettes with smile"
-        />
+          alt="man baker looking at baguettes with smile"/>
+      </div>
         </div>
       </section>
       <section class="section" id="chefs section">
@@ -100,9 +107,9 @@
       <section class="section" id="formats section">
         <div class="container">
           <h2 class="formats-title section-title">Formats</h2>
-        <ul>
-        <li>
-          <article>
+        <ul class="formats-list">
+        <li class="formats-item">
+          <article class="format-card">
             <h3 class="format-title">Walrus</h3>
             <div class="format-text">
               <p>Area: up to 120 m2</p>
@@ -112,8 +119,8 @@
             </div>
           </article>
         </li>
-        <li>
-          <article>
+        <li class="formats-item">
+          <article class="format-card">
             <h3 class="format-title">Horseshoe</h3>
             <div class="format-text">
               <p>Area: up to 120 m2</p>
@@ -123,8 +130,8 @@
             </div>
           </article>
         </li>
-        <li>
-          <article>
+        <li class="formats-item">
+          <article class="format-card">
             <h3 class="format-title">Handlebar</h3>
             <div class="format-text">
               <p>Area: up to 120 m2</p>
