@@ -174,11 +174,30 @@
           <div class="contact-form">
             <h2 class="contact-title section-title">Join Bakeries Network</h2>
             <p>Fill the form and we'll call you back</p>
+            <form name="contact-form" autocomplete="off">
+              <div class="form-field">
+                <label class="form-label visually-hidden" for="user-name">Name</label>
+                <input class="form-input" type="text" name="user-name" id="user-name" placeholder="Name" />
+              </div>
+              <div class="form-field">
+                <label class="form-label visually-hidden" for="user-tel">Phone</label>
+                <input class="form-input" type="tel" name="user-tel" id="user-tel" placeholder="Phone" />
+              </div>
+              <div class="form-field">
+                <label class="form-label visually-hidden" for="user-email">Email</label>
+                <input class="form-input" type="email" name="user-email" id="user-email" placeholder="email" />
+              </div>
+              <button class="form-button button" type="submit">Order call</button>
+              <p class="form-terms">By pressing the button I agree with <a class="form-terms-link" href="#">Confidential
+                  policy</a>
+              </p>
+            </form>
           </div>
           <iframe class="contact-map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20787.31961526612!2d-123.2996302843094!3d49.363220896587414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54866c7465473d15%3A0x86d52edac83c204a!2z0JPQu9C10L3QuNCz0LvRgSDQk9C-0LvRhCDQmtC-0YDRgSAmINCa0LvQsNCx0YXQsNGD0YEgfCDQl9Cw0L_QsNC0INCS0LDQvdC60YPQstC10YA!5e0!3m2!1sru!2sca!4v1741848365190!5m2!1sru!2sca"
             width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
         </div>
       </div>
     </section>
@@ -241,6 +260,25 @@
   <div class="backdrop">
     <div class="modal">
       <button class="modal-btn-close" type="button">Close</button>
+      <h2>Order call</h2>
+      <p>Leave you order and our specialist will contact you</p>
+      <form name="modal-form" autocomplete="off" novalidate>
+        <div class="form-field">
+          <label class="form-label visually-hidden" for="user-name">Name</label>
+          <input class="form-input" type="text" name="user-name" id="user-name" placeholder="Name" />
+        </div>
+        <div class="form-field">
+          <label class="form-label visually-hidden" for="user-tel">Phone</label>
+          <input class="form-input" type="tel" name="user-tel" id="user-tel" placeholder="Phone" />
+        </div>
+        <div class="form-field">
+          <label class="form-label visually-hidden" for="user-email">Email</label>
+          <input class="form-input" type="email" name="user-email" id="user-email" placeholder="email" />
+        </div>
+        <button class="form-button button" type="submit">Order call</button>
+        <p class="form-terms">By pressing the button I agree with <a class="form-terms-link" href="#">Confidential
+            policy</a></p>
+      </form>
     </div>
   </div>
 
